@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.feng.huabanlayout.MainActivity"
+    android:background="@color/backGround">
+
+
+    <ImageView
+        android:layout_marginTop="61dp"
+        android:src="@mipmap/center_bitmap"
+        android:layout_width="345dp"
+        android:layout_height="336dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView" />
+    <ImageView
+        android:src="@drawable/heart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="47dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="39dp" />
+    <ImageView
+        android:src="@drawable/trash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="39dp"/>
+    <ImageView
+        android:src="@drawable/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="39dp"
+        android:layout_marginRight="47dp"/>
+    <ImageView
+        android:src="@drawable/down"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>
