@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HuabanLayout</string>
+    <string name="afternoon">午后</string>
+    <string name="word">词</string>
 </resources>

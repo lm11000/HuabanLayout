@@ -3,41 +3,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.feng.huabanlayout.MainActivity"
-    android:background="@color/backGround">
+    android:background="@color/backGround"
+    tools:context="com.feng.huabanlayout.MainActivity">
 
 
     <ImageView
-        android:layout_marginTop="61dp"
-        android:src="@mipmap/center_bitmap"
+        android:id="@+id/imageView"
         android:layout_width="345dp"
         android:layout_height="336dp"
         android:layout_gravity="center_horizontal"
-        android:id="@+id/imageView" />
+        android:layout_marginTop="61dp"
+        android:src="@mipmap/center_bitmap" />
+
     <ImageView
-        android:src="@drawable/heart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="47dp"
         android:layout_gravity="bottom"
-        android:layout_marginBottom="39dp" />
+        android:layout_marginBottom="39dp"
+        android:layout_marginLeft="47dp"
+        android:src="@drawable/heart" />
+
     <ImageView
-        android:src="@drawable/trash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginBottom="39dp"/>
+        android:layout_marginBottom="39dp"
+        android:src="@drawable/trash" />
+
     <ImageView
-        android:src="@drawable/download"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:layout_marginBottom="39dp"
-        android:layout_marginRight="47dp"/>
+        android:layout_marginRight="47dp"
+        android:src="@drawable/download" />
+
     <ImageView
-        android:src="@drawable/down"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="10dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape"
+        android:src="@drawable/down" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape">
+        <ImageView
+            android:src="@mipmap/window"
+            android:layout_width="17dp"
+            android:layout_height="17dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/afternoon"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape"
+        android:text="@string/word"
+        android:textSize="16sp" />
 </FrameLayout>
